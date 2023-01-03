@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homes">
+
+    <fragment
+        android:id="@+id/pesanan"
+        android:name="com.example.rapidmove.pesanan"
+        android:label="fragment_pesanan"
+        tools:layout="@layout/fragment_pesanan" />
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.rapidmove.chat"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/homes"
+        android:name="com.example.rapidmove.homes"
+        android:label="fragment_homes"
+        tools:layout="@layout/fragment_homes" />
+    <fragment
+        android:id="@+id/saldo"
+        android:name="com.example.rapidmove.saldo"
+        android:label="fragment_saldo"
+        tools:layout="@layout/fragment_saldo" />
+</navigation>
